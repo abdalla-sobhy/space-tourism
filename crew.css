@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    flex-direction: column;
+    background-image: url("./images/backgrounds/background-crew-desktop.jpg");
+    background-position: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 4%;
+    padding-left: 3%
+}
+.head-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.logo{
+    padding-right: 5%;
+}
+.horizontal-line{
+    background-color: white;
+    height: 1%;
+    width: 39%;
+    margin-top: 1.9%;
+    z-index: 1;
+}
+.buttons-tape{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    width: 59%;
+    height: 197%;
+    margin-left: -2%;
+    margin-top: -1%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.buttons{
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+.btn{
+    position: relative;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 100%;
+}
+.btn::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.175rem;
+    left: 0;
+    bottom: -2.3rem;
+    background: gray;
+}
+.Home-button::after{
+    transform: scale(0, 1);
+    transition: transform 0.3s ease;}
+.Home-button:hover::after{
+    transform: scale(1, 1);
+}
+.DES-button::after{
+    transform: scale(0, 1);
+    transition: transform 0.3s ease;
+}
+.DES-button:hover::after{
+    transform: scale(1, 1);
+}
+.CREW-button::after{
+    background: white;
+}
+.CREW-button:hover::after{
+    transform: scale(1, 1);
+}
+.TECH-button::after{
+    transform: scale(0, 1);
+    transition: transform 0.3s ease;
+}
+.TECH-button:hover::after{
+    transform: scale(1, 1);
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    margin-top: 8%;
+    margin-left: 8%;
+    width: 100%;
+    height: 100%;
+}
+.leftPart{
+    width: 66%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25%;
+    margin-left: -5%;
+    margin-top: -2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.staticPhrase{
+    color: white;
+    font-size: 2rem;
+    width: 100%;
+    animation-name: toRight-animation;
+    animation-duration: 2s;
+}
+@keyframes toRight-animation {
+    from {
+        opacity: 0;
+    translate: -5vw 0;
+    /* scale: 200% 1; */
+    }
+
+    to {
+        opacity: 1;
+    translate: 0 0;
+    /* scale: 100% 1; */
+    }
+}
+.staticPhrase span{
+    padding-right: 3%;
+    color: #4A4B54;
+}
+.crewInfo{
+    color: #CCD3F3;
+    animation-name: toDown-animation;
+    animation-duration: 2s;
+}
+@keyframes toDown-animation {
+    from {
+        opacity: 0;
+    translate: 0 -5vw ;
+    /* scale: 200% 1; */
+    }
+
+    to {
+        opacity: 1;
+    translate: 0 0;
+    /* scale: 100% 1; */
+    }
+}
+.memberRol{
+    font-size: 2rem;
+}
+.memberName{
+    font-size: 4rem;
+    color: white;
+    padding-bottom: 5%;
+}
+.memberpara{
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+}
+.crewButtons{
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+    height: 2%;
+    margin-top: -10%;
+    animation-name: toRight-animation;
+    animation-duration: 2s;
+}
+.crewMember{
+    position: relative;
+    cursor: pointer;
+    background: #35383F;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+._1stCrewMember{
+    background: white;
+}._2ndCrewMember{
+}
+._3rdCrewMember{
+}
+._4thCrewMember{
+}
+._1stCrewMember:hover{
+    background: #85878B;
+}
+._2ndCrewMember:hover{
+    background: #85878B;
+}
+._3rdCrewMember:hover{
+    background: #85878B;
+}
+._4thCrewMember:hover{
+    background: #85878B;
+}
+.imageDiv{
+    margin-left: -50%;
+    height: 97%;
+}
+.imageDiv img{
+height: 100%;
+}

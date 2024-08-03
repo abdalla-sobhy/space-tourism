@@ -1,0 +1,100 @@
+{
+    "homePageContent" : [
+        {
+            "homePageurl" : "http://127.0.0.1:5500/index.html",
+            "firstLineSpan" : "SO, YOU WANT TO TRAVEL TO",
+            "SPACE" : "SPACE<br>",
+            "text" : "Let’s face it; if you want to go to space, you might as well<br>genuinely go to outer space and not hover kind of on the<br>edge of it. Well sit back, and relax because we’ll give you<br> a truly out of this world experience!",
+            "explore" : "EXPLORE"
+        }],
+        "destinationPageContent" :[
+    {
+        "destinationPageurl" : "http://127.0.0.1:5500/destination.html"
+    },
+    {
+        "moon" :[{
+        "planetImage" : "/images/planets/image-moon.png",
+        "planetName" : "Moon<br>",
+        "planetPara" : "See our planet as you’ve never seen it before. A perfect<br>relaxing trip away to help regain perspective and come<br>back refreshed. While you’re there, take in some history<br>by visiting the Luna 2 and Apollo 11 landing sites.",
+        "planetAvgDisValue" : "384,400 KM",
+        "planetTravelTimeValue" : "3 DAYS"
+}]},
+{
+    "mars" :[{
+    "planetImage" : "/images/planets/image-mars.png",
+    "planetName" : "MARS<br>",
+    "planetPara" : "Don’t forget to pack your hiking boots. You’ll need them to<br>tackle Olympus Mons, the tallest planetary mountain in<br>our solar system. It’s two and a half times the size of<br>Everest!",
+    "planetAvgDisValue" : "225 MIL. KM",
+    "planetTravelTimeValue" : "9 MONTHS"
+}]},
+{
+    "europa" :[{
+    "planetImage" : "/images/planets/image-europa.png",
+    "planetName" : "EUROPA<br>",
+    "planetPara" : "The smallest of the four Galilean moons orbiting Jupiter,<br>Europa is a winter lover’s dream. With an icy surface, it’s<br>perfect for a bit of ice skating, curling, hockey, or simple<br>relaxation in your snug wintery cabin.",
+    "planetAvgDisValue" : "628 MIL. KM",
+    "planetTravelTimeValue" : "3 YEARS"
+}]},
+{
+    "titan" :[{
+    "planetImage" : "/images/planets/image-titan.png",
+    "planetName" : "TITAN<br>",
+    "planetPara" : "The only moon known to have a dense atmosphere other<br>than Earth, Titan is a home away from home (just a few<br>hundred degrees colder!). As a bonus, you get striking<br>views of the Rings of Saturn.",
+    "planetAvgDisValue" : "1.6 BIL. KM",
+    "planetTravelTimeValue" : "7 YEARS"
+}]}
+],
+    "crewPageContent" : [
+        {
+            "DOUGLAS_HURLEY" :[{
+                "memberRol" : "COMMANDER",
+                "memberName" : "DOUGLAS HURLEY",
+                "memberpara" : "Douglas Gerald Hurley is an American engineer, former<br>Marine Corps pilot and former NASA astronaut. He<br>launched into space for the third time as commander of<br>Crew Dragon Demo-2.",
+                "memberImage" : "<img src='images/crew/image-douglas-hurley.png' alt='couldn't find the image'/>"
+            }]},
+            {
+                "MARK_SHUTTLEWORTH" :[{
+                "memberRol" : "MISSION SPECIALIST",
+                "memberName" : "MARK SHUTTLEWORTH",
+                "memberpara" : "Mark Richard Shuttleworth is the founder and CEO of<br>Canonical, the company behind the Linux-based Ubuntu<br>operating system. Shuttleworth became the first South<br>African to travel to space as a space tourist.",
+                "memberImage" : "<img src='images/crew/image-mark-shuttleworth.png' alt='couldn't find the image'/>"
+            }]},
+            {
+                "VICTOR_GLOVER" :[{
+                    "memberRol" : "PILOT",
+                    "memberName" : "VICTOR GLOVER",
+                    "memberpara" : "Pilot on the first operational flight of the SpaceX Crew<br>Dragon to the International Space Station. Glover is a<br>commander in the U.S. Navy where he pilots an F/A-18.<br>He was a crew member of Expedition 64, and served<br>as a station systems flight engineer.",
+                    "memberImage" : "<img src='images/crew/image-victor-glover.png' alt='couldn't find the image'/>"
+                }]},
+                {
+                    "ANOUSHEH_ANSARI" :[{
+                        "memberRol" : "FLIGHT ENGINEER",
+                        "memberName" : "ANOUSHEH ANSARI",
+                        "memberpara" : "Anousheh Ansari is an Iranian American engineer and<br>co-founder of Prodea Systems. Ansari was the fourth<br>self-funded space tourist, the first self-funded woman to<br>fly to the ISS, and the first Iranian in space.",
+                        "memberImage" : "<img src='images/crew/image-anousheh-ansari.png' alt='couldn't find the image'/>"
+                    }]}
+    ],
+    "technologyPageContent" : [
+        {
+            "number1" :[{
+                "terminology" : "LAUNCH VEHICLE",
+                "para" : "A launch vehicle or carrier rocket is a rocket-propelled<br>vehicle used to carry a payload from Earth's surface to<br>space, usually to Earth orbit or beyond. Our WEB-X<br>carrier rocket is the most powerful in operation.<br>Standing 150 metres tall, it's quite an awe-inspiring<br>sight on the launch pad!",
+                "image" : "<img src='images/technology/image-launch-vehicle-portrait.jpg' alt='can't find the image'/>"
+            }]
+        },
+        {
+            "number2" :[{
+                "terminology" : "SPACEPORT",
+                "para" : "A spaceport or cosmodrome is a site for launching<br>(or receiving) spacecraft, by analogy to the seaport<br>for ships or airport for aircraft. Based in the famous<br>Cape Canaveral, our spaceport is ideally situated to<br>take advantage of the Earth’s rotation for launch.",
+                "image" : "<img src='images/technology/image-spaceport-portrait.jpg' alt='can't find the image'/>"
+            }]
+        },
+        {
+        "number3" :[{
+                "terminology" : "SPACE CAPSULE",
+                "para" : "A space capsule is an often-crewed spacecraft that<br>uses a blunt-body reentry capsule to reenter the<br>Earth's atmosphere without wings. Our capsule is<br>where you'll spend your time during the flight. It<br>includes a space gym, cinema, and plenty of other<br>activities to keep you entertained.",
+                "image" : "<img src='images/technology/image-space-capsule-portrait.jpg' alt='can't find the image'/>"
+            }]
+        }
+    ]
+}

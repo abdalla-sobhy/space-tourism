@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    flex-direction: column;
+    background-image: url("./images/backgrounds/background-technology-desktop.jpg");
+    background-position: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 4%;
+    padding-left: 3%
+}
+.head-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.logo{
+    padding-right: 5%;
+}
+.horizontal-line{
+    background-color: white;
+    height: 1%;
+    width: 39%;
+    margin-top: 1.9%;
+    z-index: 1;
+}
+.buttons-tape{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    width: 59%;
+    height: 197%;
+    margin-left: -2%;
+    margin-top: -1%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.buttons{
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+.btn{
+    position: relative;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 100%;
+}
+.btn::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.175rem;
+    left: 0;
+    bottom: -2.3rem;
+    background: gray;
+}
+.Home-button::after{
+    transform: scale(0, 1);
+    transition: transform 0.3s ease;
+}
+.Home-button:hover::after{
+    transform: scale(1, 1);
+}
+.DES-button::after{
+    transform: scale(0, 1);
+    transition: transform 0.3s ease;
+}
+.DES-button:hover::after{
+    transform: scale(1, 1);
+}
+.CREW-button::after{
+    transform: scale(0, 1);
+    transition: transform 0.3s ease;
+}
+.CREW-button:hover::after{
+    transform: scale(1, 1);
+}
+.TECH-button::after{
+    background: white;
+}
+.TECH-button:hover::after{
+    transform: scale(1, 1);
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    margin-top: 8%;
+    margin-left: 8%;
+    width: 100%;
+    height: 100%;
+}
+.leftPart{
+    width: 66%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25%;
+    margin-left: -5%;
+    margin-top: -2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.staticPhrase{
+    color: white;
+    font-size: 2rem;
+    width: 100%;
+}
+.staticPhrase span{
+    padding-right: 3%;
+    color: #4A4B54;
+}
+.numbersAndText{
+    display: flex;
+    flex-direction: row;
+    gap: 9%;
+}
+.numbers{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    animation-name: toDown-animation;
+    animation-duration: 2s;
+}
+.number{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.number1{
+    background: white;
+    color: black;
+}
+.number2{
+    background: transparent;
+    color: white;
+    border-color: white;
+    border: 0.01rem solid white;
+}
+.number3{
+    background: transparent;
+    color: white;
+    border-color: white;
+    border: 0.01rem solid white;
+}
+.number1:hover{
+    background: white;
+    color: black;
+}
+.number2:hover{
+    background: white;
+    color: black;
+}
+.number3:hover{
+    background: white;
+    color: black;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    color: #CCD3F3;
+    animation-name: toLeft-animation;
+    animation-duration: 2s;
+}
+.terminology span{
+    color: white;
+    font-size: 4rem;
+}
+.para{
+    line-height: 2.3rem;
+    font-size: 1.2rem;
+    margin-top: 9%;
+}
+.imageDiv{
+    margin-left: -50%;
+    margin-top: 20%;
+    padding-bottom: 18.2%;
+}
+@keyframes toDown-animation {
+    from {
+        opacity: 0;
+    translate: 0 -5vw ;
+    /* scale: 200% 1; */
+    }
+
+    to {
+        opacity: 1;
+    translate: 0 0;
+    /* scale: 100% 1; */
+    }
+}
+@keyframes toLeft-animation {
+    from {
+        opacity: 0;
+    translate: 5vw 0;
+    /* scale: 200% 1; */
+    }
+
+    to {
+        opacity: 1;
+    translate: 0 0;
+    /* scale: 100% 1; */
+    }
+}
